@@ -35,7 +35,14 @@ public class DemoController {
         course.add("Microservices");
 
         return course;
+    }
 
+    @RequestMapping("/Age")
+
+    public Integer score () {
+        int Age = 24+i;
+        i++;
+        return Age;
     }
 
 }
