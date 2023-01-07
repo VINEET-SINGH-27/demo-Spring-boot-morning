@@ -11,7 +11,7 @@ public class CopyController {
     @RequestMapping("/hello")  // REQUEST MAPPING
     public void hello () {
 
-        System.out.println("Hello , Spring boot");
+        System.out.println("Hello , Spring boot...");
     }
 
     @RequestMapping("/welcome")  // request mapping
