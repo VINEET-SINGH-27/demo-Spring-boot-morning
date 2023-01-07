@@ -12,6 +12,6 @@ public class NameController {
         String name = "Java";
         String sir_name = "Core";
 
-        return "my name is :"+name;
+        return "my name is : "+name;
     }
 }
